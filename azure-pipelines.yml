@@ -1,4 +1,17 @@
 # Starter pipeline
+- task: PowerShell@2
+  inputs:
+    targetType: 'inline'
+    script: |
+      Write-Host "Hi, I'm Oscar."
+      Write-Host "I'm accessing sensitive data in my pipeline"
+      Write-Host "Here's an example: "
+      Write-Host "=========="
+      Write-Host "Send Grid API Key: $(SendGridApiKey)"
+      Write-Host "Cogni News Service: $(NewsServiceApiKey)"
+      Write-Host "=========="
+      Write-Host "Did I mention these comes from the Azure Key Vault?"
+      Write-Host "Thanks for tuning in. See you in the next blog post
 # Start with a minimal pipeline that you can customize to build and deploy your code.
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
