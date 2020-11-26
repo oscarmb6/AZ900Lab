@@ -11,7 +11,7 @@
       Write-Host "Cogni News Service: $(NewsServiceApiKey)"
       Write-Host "=========="
       Write-Host "Did I mention these comes from the Azure Key Vault?"
-      Write-Host "Thanks for tuning in. See you in the next blog post
+      Write-Host "Thanks for tuning in. See you in the next blog post"
 # Start with a minimal pipeline that you can customize to build and deploy your code.
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
